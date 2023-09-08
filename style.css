@@ -1,0 +1,196 @@
+/* Tags */
+body {
+    background-color: #f2f2f2;
+}
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+form {
+    margin-right: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    background-color: #5a5a5a;
+    height: 40px;
+    padding-block-end: 10px;
+}
+
+span {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+a{
+
+    font-size: small;
+    padding: 2px;
+    color: #5a5a5a;
+}
+
+h5 {
+    margin-top: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: large;
+}
+
+footer{
+    background-color: #5a5a5a;
+    color: #fff;
+    text-align: center;
+}
+
+/* Classes */
+
+.facebook_logo {
+    margin-top: 4px;
+    cursor: pointer;
+    margin-left: 60px;
+    align-self: flex-start;
+}
+
+.notifications {
+    display: flex;
+    align-items: middle;
+    margin-right: 20px;
+}
+
+.icon {
+    display: none;
+  }
+  
+.btn-link {
+    color: white;
+    text-decoration: none;
+}
+
+.barra_pesquisa {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #ccc;
+    max-height: 100px;
+}
+
+
+.form-control {
+    width: 400px;
+}
+
+/* Botões */
+.buscar, .enviar {
+    font-weight: 600;
+    border-radius: 10%;
+}
+
+.enviar {
+    background-color: #ccc;
+    width: 100px;
+    height: 40px;
+    float: inline-end;
+    margin-right: 60px;
+}
+
+/* Molduras */
+
+.cidade {
+    border-radius: 8%;
+    background-color: white;
+}
+
+
+.prato {
+    margin-right: 40px;
+    max-width: 350px;
+    text-align: center;
+    background-color: white;
+}
+
+.prato img{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    padding: 0;
+    margin-top: 100px;
+}
+
+.sobre{
+    text-align: left;
+}
+
+.empresa {
+    width: 700px;
+    padding: 20px;
+    background-color: white;
+}
+
+.cardapio {
+    width: 700px;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.cardapio ul {
+    padding-inline: 6px;
+}
+
+.cardapio li {
+    list-style-type: none;
+}
+
+.colaboradores{
+    width: 700px;
+    padding: 20px;
+    background-color: white;
+}
+
+.colaboradores img {
+    width: 100px;
+}
+
+.card {
+    border-style: none;
+}
+
+.card-body {
+    width: 450px;
+}
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5a5a5a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.card-text {
+    color: #5a5a5a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mensagem {
+    background-color: #fff;
+    width: 700px;
+    padding: 20px;
+    height: 280px;
+}
+/* IDs */
+#logo {
+    margin-left: 30px;
+    margin-right: 300px;
+}

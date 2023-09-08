@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+
+    body{
+        max-width: 600px;
+    }
+    .text-white a {
+        font-size: xx-small;
+    }
+
+    nav form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-control{
+        max-width: 300px;
+    }
+
+    .facebook_logo img {
+        width: 4vw;
+        max-width: 100%;
+        height: auto;
+    }
+    .facebook_logo span {
+        display:none;
+    }
+
+    .enviar{
+        float: left;
+    }
+}
